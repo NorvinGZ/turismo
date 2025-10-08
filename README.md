@@ -261,11 +261,12 @@ Modifica las variables en `:root` para cambiar colores, espaciados y efectos:
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👨‍💻 Autores
+## 👨‍💻 Autores  Grupo - 2
 
-**NorvinGZ**
+**Norvin Lloeldi Gutierrez Zapata**
 - GitHub: [@NorvinGZ](https://github.com/NorvinGZ)
-- Email: contacto@travelgo.com
+**Jenifer Liseth Rodriguez Castillo**
+- GitHub: [@jeniferrodriguez07](https://github.com/jeniferrodriguez07)
 
 ## 🙏 Agradecimientos
 
@@ -274,15 +275,6 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 - **Google Fonts** por la tipografía Poppins
 - **Comunidad de desarrolladores** por las mejores prácticas
 
-## 📞 Soporte
-
-Si tienes preguntas o necesitas ayuda:
-
-- 📧 Email: soporte@travelgo.com
-- 💬 GitHub Issues: [Crear un issue](https://github.com/NorvinGZ/turismo/issues)
-- 📱 Teléfono: +1 (555) 123-4567
-
----
 
 <div align="center">
 
@@ -295,3 +287,4 @@ Si tienes preguntas o necesitas ayuda:
 [![GitHub watchers](https://img.shields.io/github/watchers/NorvinGZ/turismo?style=social)](https://github.com/NorvinGZ/turismo/watchers)
 
 </div>
+
