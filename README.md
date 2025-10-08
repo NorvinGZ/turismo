@@ -265,6 +265,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Norvin Lloeldi Gutierrez Zapata**
 - GitHub: [@NorvinGZ](https://github.com/NorvinGZ)
+  
 **Jenifer Liseth Rodriguez Castillo**
 - GitHub: [@jeniferrodriguez07](https://github.com/jeniferrodriguez07)
 
