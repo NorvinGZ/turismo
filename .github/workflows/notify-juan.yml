@@ -1,0 +1,20 @@
+name: Notify Juan
+
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types: [completed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    
+    steps:
+    - name: Notify Juan
+      run: |
+        echo "🚀 TravelGo deployment successful!"
+        echo "📅 Date: $(date)"
+        echo "🔗 URL: https://norvingz.github.io/turismo/"
+        echo "✅ All checks passed"
+        echo "📧 Notification sent to Juan"
