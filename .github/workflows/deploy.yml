@@ -15,12 +15,12 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: '.'  # sube todo el repo al artifact
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
 
       - name: Notify deployment
         run: |
