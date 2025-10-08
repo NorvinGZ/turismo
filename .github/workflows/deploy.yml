@@ -7,23 +7,23 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v4
-      with:
-        path: '.'
-    
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/upload-artifact@v4
-    
-    - name: Notify deployment
-      run: |
-        echo "Deployment completed successfully!"
-        echo "Site is available at: https://norvingz.github.io/turismo/"
+      - uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: '.'  # sube todo el repo al artifact
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
+
+      - name: Notify deployment
+        run: |
+          echo "Deployment completed successfully!"
+          echo "Site is available at: https://norvingz.github.io/turismo/"
+
